@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="eu" style="background-color: #2f2f2f;">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Kontaktua - Baseball Federazioa</title>
+</head>
+<body>
+    <input type="checkbox" id="zabaldu-itxi" name="zabaldu-itxi" value="">
+    <label for="zabaldu-itxi"><img src="img/logo.png" alt="" width="100%"></label>
+    <div id="sidebar" class="sidebar">
+        <ul class="menu">
+            <li><a href="index.html">Hasiera</a></li>
+            <li><a href="informazioa.html">Informazioa</a></li>
+            <li><a href="kontaktua.html">Kontaktua</a></li>
+            <div class="dropdown">
+                <a href="taldeak.html">Taldeak</a>
+                <div class="dropdown-content">
+                    <p>Zentro-Amerikako liga</p>
+                    <a href="taldeak/chicago_white_sox.html">Chicago White Sox</a>
+                    <a href="#">Cleveland Guardians</a>
+                    <a href="#">Detroit Tigers</a>
+                    <a href="#">Kansas City Royals</a>
+                    <a href="#">Minnesota Twins</a>
+                    <p>Ekialdeko Amerikako liga</p>
+                    <a href="#">Baltimore Orioles</a>
+                    <a href="#">Boston Red Sox</a>
+                    <a href="#">New York Yankees</a>
+                    <a href="#">Tampa Bay Rays</a>
+                    <a href="#">Toronto Blue Jays</a>
+                    <p>Mendebaldeko Amerikako liga</p>
+                    <a href="#">Houston Astros</a>
+                    <a href="#">Los Angeles Angels</a>
+                    <a href="#">Oakland Athletics</a>
+                    <a href="#">Seattle Mariners</a>
+                    <a href="#">Texas Rangers</a>
+                    <p>Liga Nazional Zentrala</p>
+                    <a href="#">Chicago Cubs</a>
+                    <a href="#">Cincinnati Reds</a>
+                    <a href="#">Milwaukee Brewers</a>
+                    <a href="#">Pittsburgh Pirates</a>
+                    <a href="#">St. Louis Cardinals</a>
+                    <p>Ekialdeko Liga Nazionala</p>
+                    <a href="#">Atlanta Braves</a>
+                    <a href="#">Miami Marlins</a>
+                    <a href="#">New York Mets</a>
+                    <a href="#">Philadelphia Phillies</a>
+                    <a href="#">Washington Nationals</a>
+                    <p>Mendebaldeko Liga Nazionala</p>
+                    <a href="#">Arizona Diamondbacks</a>
+                    <a href="#">Colorado Rockies</a>
+                    <a href="#">Los Angeles Dodgers</a>
+                    <a href="#">San Diego Padres</a>
+                    <a href="#">San Francisco Giants</a>
+                </div>
+            </div>
+        </ul>
+    </div>
+    <div class="formularioa">
+        <div class="formulario_argazkia">
+            <img src="img/form_img.jpg" alt="">
+        </div>
+        <div class="formulario_galderak">
+            <label for="izena" style="color: white;">Izena</label>
+            <input type="text" id="izena" name="izena"><br>
+            <label for="abizena" style="color: white;">Abizena</label>
+            <input type="text" id="abizena" name="abizena" height="10px"><br><br>
+            <div class="tiers">
+                <table id="taula_form">
+                    <tr>
+                        <th><input type="radio" id="tier0" name="suskripzio_tier" value="Tier 0">
+                        <label for="tier0">Tier 0</label></th>
+                        <th style="border-left: 3px solid black;"><input type="radio" id="tier1" name="suskripzio_tier" value="Tier 1">
+                        <label for="tier1">Tier 1</label></th>
+                        <th style="border-left: 3px solid black;"><input type="radio" id="tier2" name="suskripzio_tier" value="Tier 2">
+                        <label for="tier2">Tier 2</label></th>
+                    </tr>
+                    <tr>
+                        <th>Prezioa: 0€</th>
+                        <th style="border-left: 3px solid black;">Prezioa: 4,99€</th>
+                        <th style="border-left: 3px solid black;">Prezioa: 9,99€</th>
+                    </tr>
+                    <tr>
+                        <td>Informazio guztira ikusteko gai izango zara, baina ez duzu izango sarpenarik partiduak ikusteko edo foroan parte hartzeko.</td>
+                        <td style="border-left: 3px solid black;">Informazio guztira ikusteko gai izango zara, eta foroan parte hartzeko gaitasuna izango duzu. Edozein momentuan desaktibatu desakezu berriztatze automatikoa.</td>
+                        <td style="border-left: 3px solid black;">Informazio guztira ikusteko gai izango zara, foroan parte hartzeko gaitasuna izango duzu eta partiduak zuzenean ikusi ahal ditzakezu.</td>
+                    </tr>
+                </table>
+                <label for="" style="color: white;">Zure taldea: </label>
+                <select name="taldea" id="talde_elekzioa">
+                    <option value="Chicago White Sox">Chicago White Sox</option>
+                    <option value="Cleveland Guardians">Cleveland Guardians</option>
+                    <option value="Detroit Tigers">Detroit Tigers</option>
+                    <option value="Kansas City Royals">Kansas City Royals</option>
+                    <option value="Minnesota Twins">Minnesota Twins</option>
+                    <option value="Baltimore Orioles">Baltimore Orioles</option>
+                    <option value="Boston Red Sox">Boston Red Sox</option>
+                    <option value="New York Yankees">New York Yankees</option>
+                    <option value="Tampa Bay Rays">Tampa Bay Rays</option>
+                    <option value="Toronto Blue Jays">Toronto Blue Jays</option>
+                    <option value="Houston Astros">Houston Astros</option>
+                    <option value="Los Angeles Angels">Los Angeles Angels</option>
+                    <option value="Oakland Athletics">Oakland Athletics</option>
+                    <option value="Seattle Mariners">Seattle Mariners</option>
+                    <option value="Texas Rangers">Texas Rangers</option>
+                    <option value="Chicago Cubs">Chicago Cubs</option>
+                    <option value="Cincinnati Reds">Cincinnati Reds</option>
+                    <option value="Milwaukee Brewers">Milwaukee Brewers</option>
+                    <option value="Pittsburgh Pirates">Pittsburgh Pirates</option>
+                    <option value="St. Louis Cardinals">St. Louis Cardinals</option>
+                    <option value="Atlanta Braves">Atlanta Braves</option>
+                    <option value="Miami Marlins">Miami Marlins</option>
+                    <option value="New York Mets">New York Mets</option>
+                    <option value="Philadelphia Phillies">Philadelphia Phillies</option>
+                    <option value="Washington Nationals">Washington Nationals</option>
+                    <option value="Arizona Diamondbacks">Arizona Diamondbacks</option>
+                    <option value="Colorado Rockies">Colorado Rockies</option>
+                    <option value="Los Angeles Dodgers">Los Angeles Dodgers</option>
+                    <option value="San Diego Padres">San Diego Padres</option>
+                    <option value="San Francisco Giants">San Francisco Giants</option>
+                </select><br>
+                <center><input type="submit" value="Bidali"></center>
+            </div>
+        </div>
+    </div><br><br>
+    <center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3417.3569348397555!2d-97.68071838490553!3d31.071996981520236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86454998eff765e7%3A0x1fa46805268a7c9d!2s600%20W%20Central%20Texas%20Expy%2C%20Harker%20Heights%2C%20TX%2076548%2C%20EE.%20UU.!5e0!3m2!1ses!2ses!4v1666000018140!5m2!1ses!2ses" width="1200" height="650px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center><br><br>
+    <footer>
+        Direkzioa: 600 W Central Texas Expy, Harker Heights, TX 76548, Estatu Batuak<br>
+        Telefonoa: 111111111<br>
+        Posta elektronikoa: <i>baseballfed@bfg.com</i><br>
+        Baseball Federazioa © | Eskubide guztiak erreserbatutak
+    </footer>
+</body>
+</html>
