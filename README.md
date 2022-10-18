@@ -10,7 +10,7 @@ and improving my skills.
 
 # GBF-WEB / Global BaseBall & Softball Federation
 
-This is a project, based on a demand of the Global Baseball 
+This is a project (WEB-Page), based on a demand of the Global Baseball 
 & Softball federatio. 
 
 ![Logo](https://cdn.discordapp.com/attachments/1021396363671507005/1031869891483009064/logo.png)
