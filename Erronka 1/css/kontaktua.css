@@ -1,0 +1,455 @@
+.textkontak {
+    font-size: 45px;
+    color: rgb(246, 240, 240);
+    font-family: 'Trebuchet MS',
+        'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.linea3 {
+    background-color: rgb(255, 255, 255);
+    font-size: 1px;
+    color:rgb(253, 249, 249);
+    margin-left: 370px;
+    margin-right: 370px;
+    margin-top: 10px;
+}
+
+.textkontak2 {
+    font-size: 30px;
+    color:rgb(255, 252, 252);
+    font-family: 'Segoe UI',
+        Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.textkontak3 {
+    font-size: 15px;
+    color: rgb(253, 245, 245);
+    font-family: 'Segoe UI',
+        Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.mapsmapa {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.linea4 {
+    background-color: rgb(255, 255, 255);
+    font-size: 3px;
+    color:rgb(250, 250, 250);
+    margin-left: 270px;
+    margin-right: 270px;
+    margin-top: 10px;
+}
+
+.gurekinkontak {
+    font-size: 35px;
+    color:rgb(253, 251, 251);
+    font-family: 'Trebuchet MS',
+        'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
+}
+
+.centerbox {
+    text-align: center;
+}
+
+.space {
+    margin-bottom: 30px;
+}
+
+.textkontak4 {
+    color: rgb(251, 245, 245);
+    font-size: 21px;
+    font-family: 'Segoe UI',
+        Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 10px;
+}
+
+.num {
+    color: rgb(255, 252, 252);
+    font-size: 20px;
+    font-family: 'Segoe UI',
+        Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.areasection {
+    text-align: center;
+}
+
+.textiritzia {
+    font-size: 35px;
+    color: rgb(253, 249, 249);
+    font-family: 'Trebuchet MS',
+        'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.textarea1 {
+    width: 800px;
+    height: 200px;
+}
+
+/*ORRI OINA*/
+
+.footer1 {
+    margin-top: 30px;
+    background-color: rgb(254, 253, 253);
+    height: 100px;
+    border-top: 3px solid white;
+}
+
+.footerkarak {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foottext {
+    color: rgb(248, 248, 248);
+    font-size: 25px;
+    margin-right: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT',
+        Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.foottext2 {
+    color: rgb(253, 252, 252);
+    font-size: 25px;
+    margin-right: 40px;
+    margin-left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT',
+        Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.foottext3 {
+    color: rgb(251, 245, 245);
+    font-size: 25px;
+    margin-left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT',
+        Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.textfoot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer1 p {
+    color: rgb(249, 248, 248);
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT',
+        Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Formularioak */
+
+/* Formulario guztien konfigurazioa */
+.form {
+    color: rgb(250, 246, 246);
+    margin-left: 33%;
+    font-family: 'Trebuchet MS',
+    'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+/* Formularioen ertzak */
+fieldset{
+    margin-right: 50%;
+    border-color: rgb(250, 246, 246);
+    border-radius: 1%;
+    box-shadow: 10px 10px 8px 5px rgb(253, 252, 252);
+}
+
+legend{
+    margin-left: 8%;
+}
+
+/* Linearen kolorea Click egiten duzunean */
+.input:placeholder-shown{
+    color: rgb(247, 245, 245);
+}
+
+#JaiotzeUrtea {
+    margin-left: 4.5%;
+}
+
+#Sexua {
+    margin-left: 6%;
+}
+
+#Botoiak {
+
+    color:rgb(250, 248, 248);
+    margin-left: 12.5%;
+}
+
+#iritzia {
+    margin-left: 5%;
+}
+
+/* Izartzoaren kolorea */
+.required {
+    color: red;
+}
+
+/* Formularioaren tituloa */
+.formtxt{
+    font-size: 35px;
+    color: rgb(252, 250, 250);
+    font-family: 'Trebuchet MS',
+        'Lucida Sans Unicode', 'Lucida Grande',
+        'Lucida Sans', Arial, sans-serif;
+}
+
+/* Input normalak */
+.input{
+    background-color: transparent;
+    border: rgb(251, 246, 246);
+    border-bottom: 1px solid rgb(252, 251, 251) ;
+    color:rgb(253, 249, 249);
+}
+
+.input:hover{
+    border-bottom: 1px solid skyblue;
+}
+
+.input:focus{
+    border-bottom: 3px solid skyblue;
+}
+
+/* Input arraroak */
+.inputES{
+    background-color: transparent;
+    color: rgb(245, 244, 244) ;
+}
+
+.input_btn{
+    font-size: 15px;
+    background-color: transparent;
+    border: 2px solid rgb(254, 251, 251);
+    color: rgb(253, 251, 251);
+}
+#ezabatu{
+    margin-left: 60%;
+}
+
+textarea{
+    resize:none;
+}
+
+/* CV botoiaren kolorea */
+input[type=file]::-webkit-file-upload-button {
+    border: 1px solid rgb(250, 249, 249);
+    background: transparent;
+    color:rgb(254, 254, 254);
+}
+
+/* Formularioetara joateko botoiak */
+.form_btn{
+    font-size: 20px;
+    font-family: 'Segoe UI',
+        Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid rgb(254, 252, 252);
+    border-radius: 5%;
+    background: transparent;
+    color: rgb(255, 254, 254);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.form_btn:hover {
+    transform: scale(1.1);
+}
+
+.form_btn:active {
+    transform: scale(1.0);
+}
+
+#bazkide{
+    margin-right: 3%;
+}
+
+#ezabatu{
+    margin-left: 59%;
+}
+
+
+
+
+
+/* Scroll barra */
+::-webkit-scrollbar {
+    background-color: #2f2f2f;
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: white;
+    border-radius: 10px;
+    /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); */
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0,0,0);
+    background-color: white;
+    /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0); */
+}   
+
+
+
+/* Menu desplegablea bertikalki */
+input#zabaldu-itxi {
+    visibility:hidden;
+    position: absolute;
+    top: -9999px;
+}
+
+
+label[for="zabaldu-itxi"] {
+    cursor:pointer;
+    padding: 10px;
+    color:#fff;
+    display: inline-block;
+    width: 30px;
+}
+
+label[for="zabaldu-itxi"]:hover{
+    transform: scale(1.25);
+    transition: 0.5s;
+}
+
+.itxi {
+    display:none;
+}
+
+#sidebar {
+    width:0;
+}
+
+#contenido {
+    margin-left:0;
+}
+
+input#zabaldu-itxi:checked ~ #sidebar {
+    width:300px;
+}
+
+input#zabaldu-itxi:checked + label[for="zabaldu-itxi"], input#zabaldu-itxi:checked ~ #contenido {
+    margin-left:300px;
+    transition: margin-left .4s;
+}
+
+
+input#zabaldu-itxi:checked + label[for="zabaldu-itxi"] .cerrar {
+    display:inline;
+}
+
+input#zabaldu-itxi:checked + label[for="zabaldu-itxi"] .abrir {
+    display:none;
+}
+
+.sidebar {
+    position: fixed;
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #2f2f2f;
+    overflow-x: hidden;
+    transition: 0.4s;
+    padding: 1rem 0;
+    box-sizing:border-box;
+}
+
+.sidebar .boton-cerrar {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    font-size: 2rem;
+    display: block;
+    padding: 0;
+    line-height: 1.5rem;
+    margin: 0;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    /* vertical-align: top; */
+}
+
+.sidebar ul, .sidebar li{
+    margin:0;
+    padding:0;
+    list-style:none inside;
+}
+
+.sidebar ul {
+    margin: 4rem auto;
+    display: block;
+    width: 80%;
+    min-width:200px;
+}
+
+.sidebar a {
+    display: block;
+    font-size: 120%;
+    color: #eee;
+    text-decoration: none;
+    
+}
+
+.sidebar a:hover{
+    font-size: 20px;
+}
+
+/* Menu desplegablea beherantz taldeak */
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 350%;
+    padding: 20px;
+    padding-bottom: 50px;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a {
+    display: block;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+.dropdown-content a:hover {
+    color: white;
+    background-color: #025b88;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.dropdown-content p{
+    color: rgb(192, 186, 186);
+}
