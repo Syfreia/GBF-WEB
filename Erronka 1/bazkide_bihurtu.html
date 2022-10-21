@@ -1,0 +1,102 @@
+<!doctype html>
+
+<LINK REL=StyleSheet HREF="./css/kontaktua.css" TYPE="text/css" MEDIA=screen>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Bazkide Bihurtu</title>
+        <title>Kontaktua - baseball federazioa</title>
+        <link rel="shortcut icon" href="./img/logo.png">
+    </head>
+    <body style="background-color:#2f2f2f;">
+        <input type="checkbox" id="zabaldu-itxi" name="zabaldu-itxi" value="">
+    <label for="zabaldu-itxi"><img src="img/logo.png" alt="" width="100%"></label>
+    <div id="sidebar" class="sidebar">
+        <ul class="menu">
+            <li><a href="./index.html">Hasiera</a></li>
+            <li><a href="./informazioa.html">Informazioa</a></li>
+            <li><a href="./kontaktua.html">Kontaktua</a></li>
+            <div class="dropdown">
+                <a href="./taldeak.html">Taldeak</a>
+                <div class="dropdown-content">
+                    <p>Zentro-Amerikako liga</p>
+                    <a href="talde_info.html#chicagowhitesox">Chicago White Sox</a>
+                    <a href="talde_info.html#clevelandguardians">Cleveland Guardians</a>
+                    <a href="talde_info.html#detroittigers">Detroit Tigers</a>
+                    <a href="talde_info.html#kansascityroyals">Kansas City Royals</a>
+                    <a href="talde_info.html#minnesotatwins">Minnesota Twins</a>
+                    <p>Ekialdeko Amerikako liga</p>
+                    <a href="talde_info.html#baltimoreorioles">Baltimore Orioles</a>
+                    <a href="talde_info.html#bostonredsox">Boston Red Sox</a>
+                    <a href="talde_info.html#newyorkyankees">New York Yankees</a>
+                    <a href="talde_info.html#tampabayrays">Tampa Bay Rays</a>
+                    <a href="talde_info.html#torontobluejays">Toronto Blue Jays</a>
+                    <p>Mendebaldeko Amerikako liga</p>
+                    <a href="talde_info.html#houstonastros">Houston Astros</a>
+                    <a href="talde_info.html#losangelesangels">Los Angeles Angels</a>
+                    <a href="talde_info.html#oaklandathletics">Oakland Athletics</a>
+                    <a href="talde_info.html#seattlemariners">Seattle Mariners</a>
+                    <a href="talde_info.html#texasrangers">Texas Rangers</a>
+                    <p>Liga Nazional Zentrala</p>
+                    <a href="talde_info.html#chicagocubs">Chicago Cubs</a>
+                    <a href="talde_info.html#cincinnatireds">Cincinnati Reds</a>
+                    <a href="talde_info.html#milwaukeebrewers">Milwaukee Brewers</a>
+                    <a href="talde_info.html#pittsburghpirates">Pittsburgh Pirates</a>
+                    <a href="talde_info.html#stlouiscardinals">St. Louis Cardinals</a>
+                    <p>Ekialdeko Liga Nazionala</p>
+                    <a href="talde_info.html#atlantabraves">Atlanta Braves</a>
+                    <a href="talde_info.html#miamimarlins">Miami Marlins</a>
+                    <a href="talde_info.html#newyorkmets">New York Mets</a>
+                    <a href="talde_info.html#philadelphiaphillies">Philadelphia Phillies</a>
+                    <a href="talde_info.html#washingtonnationals">Washington Nationals</a>
+                    <p>Mendebaldeko Liga Nazionala</p>
+                    <a href="talde_info.html#arizonadiamondbacks">Arizona Diamondbacks</a>
+                    <a href="talde_info.html#coloradorockies">Colorado Rockies</a>
+                    <a href="talde_info.html#losangelesdodgers">Los Angeles Dodgers</a>
+                    <a href="talde_info.html#sandiegopadres">San Diego Padres</a>
+                    <a href="talde_info.html#sanfranciscogiants">San Francisco Giants</a>
+                </div>
+            </div>
+        </ul>
+    </div>
+        <form class="form" method="get">
+
+            <fieldset>
+            <legend class="formtxt">Bazkide Bihurtu</legend>
+    
+            <p>Izena: <span class="required">*</span> <input class="input" type="text" name="izena" size="50" placeholder="Adb.: Alex"
+                    pattern="[A-Za-zÑñ]+" title="Zenbaki gabe" required>
+            </p>
+    
+            <p>Lehen Abizena: <span class="required">*</span> <input class="input" type="text" name="1abizena" size="40"
+                    placeholder="Adb.: Morales" pattern="[A-Za-zÑñ]+" title="Zenbaki gabe" required>
+            </p>
+    
+            <p>Bigarren Abizena: <span class="required">*</span> <input class="input" type="text" name="2abizena" size="38"
+                    placeholder="Adb.: García" pattern="[A-Za-zÑñ]+" title="Zenbaki gabe" required>
+            </p>
+    
+            <p>E-mail: <span class="required">*</span> <input class="input" type="text" name="izena" size="49"
+                    placeholder="adibidea@example.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" 
+                    required>
+            </p>
+    
+            <p>NAN: <span class="required">* </span><input class="input" type="text" name="DNI" size="51" placeholder="12345678X"
+                pattern="[0-9]{8}[A-Za-z]{1}"  minlength="9" maxlength="9" required>
+            </p>
+    
+            <p>Telefono zenbk.: <input class="input" type="tel" name="TlfnZnbk" size="40" placeholder="999 99 99 99" pattern="[0-9]+"
+                    title="Letra gabe">
+            </p>
+    
+            <p id="Botoiak">
+                <input class="input_btn" id="ezabatu" type="reset" value="Ezabatu">
+                <input class="input_btn" type="submit" value="Bidali">
+            </p>
+    
+        </fieldset>
+    
+        </form>
+    </body>
+    
+    </html>
