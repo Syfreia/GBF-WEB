@@ -5,7 +5,7 @@ body{
 }
 
 .bfed_title{
-    margin: 0;
+    margin: 20px;
     text-align: center;
     color: white;
 }
@@ -426,7 +426,7 @@ html, body {
     border-radius: 20px;
     background-color: white;
     box-shadow: 15px 15px 30px white;
-    margin: 50px;
+    margin: 60px;
     padding-bottom: 10px;
     display: inline-block;
 }
@@ -645,9 +645,4 @@ footer{
 
 .taldeko_taula td{
     border: 3px solid white;
-}
-
-iframe {
-    position: relative;
-    align-content: center;
 }
