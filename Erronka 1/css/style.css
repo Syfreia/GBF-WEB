@@ -646,3 +646,8 @@ footer{
 .taldeko_taula td{
     border: 3px solid white;
 }
+
+iframe {
+    position: relative;
+    align-content: center;
+}
