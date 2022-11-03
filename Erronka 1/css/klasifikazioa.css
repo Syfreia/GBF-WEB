@@ -1,7 +1,7 @@
 
 .titulo-tabla {
 color: black;
-background-color: rgb(0, 0, 0, 0.3);    
+/* background-color: rgb(0, 0, 0, 0.3);     */
 text-align: center;
 padding: 27px;
 border: 18px;
@@ -32,11 +32,12 @@ th  {
     }
 
 body {
-    background-image:url(.././img/Angels_Stadium.JPG);
+    /* background-image:url(./img/Angels_Stadium.JPG); */
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
+
 
 
