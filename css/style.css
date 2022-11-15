@@ -340,6 +340,7 @@ audio{
     margin: 50px;
     padding-bottom: 10px;
     display: inline-block;
+    float: inline-start;
 }
 
 .card img{
@@ -355,6 +356,7 @@ audio{
 .card a:hover{
     font-size: 20px;
     transition: 0.5s;
+    float: inline-start;
 }
 
 .card p{
@@ -389,7 +391,7 @@ footer{
     padding: 20px;
     text-align: center;
     background-color: rgb(30, 30, 30);
-    margin-top: 15.5%;
+    padding: 2%;
 }
 
 
