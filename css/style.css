@@ -332,14 +332,16 @@ audio{
 
 /* Card-a */
 .card{
-    width: 180px;
+    width: 380px;
     text-align: center;
     border-radius: 20px;
     background-color: white;
     box-shadow: 15px 15px 30px white;
-    margin: 50px;
     padding-bottom: 10px;
     display: inline-block;
+    margin-left: 6%;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
 
 .card img{
@@ -355,10 +357,9 @@ audio{
 .card a:hover{
     font-size: 20px;
     transition: 0.5s;
-    float: inline-start;
 }
 
-.Float.card p{
+.card p{
     padding: 0px 20px 0px 20px;
 }
 .card:hover{
@@ -389,6 +390,12 @@ footer{
     text-align: center;
     background-color: rgb(30, 30, 30);
     padding: 2%;
+}
+
+.logor{
+    padding-top: 15px;
+    padding-right: 0px;
+    float: left;
 }
 
 
