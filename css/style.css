@@ -332,7 +332,7 @@ audio{
 
 /* Card-a */
 .card{
-    width: 380px;
+    width: 180px;
     text-align: center;
     border-radius: 20px;
     background-color: white;
@@ -340,7 +340,6 @@ audio{
     margin: 50px;
     padding-bottom: 10px;
     display: inline-block;
-    float: inline-start;
 }
 
 .card img{
@@ -359,17 +358,15 @@ audio{
     float: inline-start;
 }
 
-.card p{
+.Float.card p{
     padding: 0px 20px 0px 20px;
 }
-
 .card:hover{
     transform: scale(1.1);
     border-radius: 20px;
     box-shadow: none;
     transition: 0.5s;
 }
-
 
 
 
